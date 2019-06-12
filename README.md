@@ -3,6 +3,7 @@
  &nbsp;
 ## Introduction  
 ![](https://github.com/LupinLeo/LeNet-5-in-zynq/blob/master/image/LeNetmodule.bmp)
+
 本项目是基于Xlinx的ZYNQ7000系列，实现了卷积神经网络（CNN）中经典的LeNet-5网络。本项目的初衷是在ZYNQ上用C++拉通一个小卷积网络，所以性能不高，对于MNIST的32x32输入，只能10帧。（高性能参数可配置的大型卷积网络（VGG16），还是需要用verilog实现，且板子有DDR4最佳）
 
 * 卷积层和池化层的编写使用了C++在Vivado HLS工具上实现
