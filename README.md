@@ -1,4 +1,4 @@
-# LeNet-5 implemented in ZYNQ
+# LeNet-5 implemented on ZYNQ
 
  &nbsp;
 ## Introduction  
